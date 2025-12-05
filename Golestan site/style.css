@@ -118,7 +118,7 @@ body {
     color: green;
 }
 
-.submit button {
+/* .submit {
     border: none;
     outline: none;
     background-color: #0e4597;
@@ -133,10 +133,10 @@ body {
     height: 50px;
 
 
-}
+} */
 
 
-.captha {
+/* .captha {
     display: flex;
     justify-content: space-around;
     gap: 3px;
@@ -159,6 +159,43 @@ body {
 
 
 
+} */
+
+.captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    background-color: #0e4597;
+    color: #fff;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Graphik-SemiBold;
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.code-box {
+    background: #fff;
+    border: 1px solid rgba(105, 105, 105, 0.4);
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #134796;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 8px;
+    user-select: none;
 }
 
 
@@ -199,6 +236,19 @@ body {
 
 
     }
+
+    .captha {
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        /* margin: auto; */
+    }
+
+
+
+
+
+
 
 
 }
