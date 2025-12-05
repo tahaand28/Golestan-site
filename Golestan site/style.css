@@ -118,48 +118,6 @@ body {
     color: green;
 }
 
-/* .submit {
-    border: none;
-    outline: none;
-    background-color: #0e4597;
-    padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 16px;
-    transform: .3s ease;
-    transition: 0.5s;
-    font-family: Graphik-SemiBold;
-    width: 160px;
-    height: 50px;
-
-
-} */
-
-
-/* .captha {
-    display: flex;
-    justify-content: space-around;
-    gap: 3px;
-    margin: auto;
-}
-
-
-.code-box {
-    padding: 10px;
-    width: 160px;
-    border-radius: 10px;
-    font-size: 20px;
-    user-select: none;
-    height: 50px;
-    background-color: #fff;
-    border: 1px solid rgba(105, 105, 105, 0.397);
-    text-align: center;
-    color: #134796;
-    letter-spacing: 10px;
-
-
-
-} */
 
 .captcha {
     display: flex;
@@ -241,7 +199,6 @@ body {
         display: flex;
         justify-content: space-around;
         gap: 5px;
-        /* margin: auto; */
     }
 
 
